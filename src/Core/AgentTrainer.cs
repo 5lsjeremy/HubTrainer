@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
-using AgentTrainerHub.Config;
-using AgentTrainerHub.Interfaces;
+using AgentTrainer.Core.Config;
+using AgentTrainer.Core.Interfaces;
 using Astryx.Abstractions.Agents;
-using Astryx.Abstractions.Substrate.Config;
 
-namespace AgentTrainerHub
+namespace AgentTrainer.Core
 {
     public sealed class AgentTrainerHub : IAgentTrainerHub
     {
@@ -35,3 +34,4 @@ namespace AgentTrainerHub
         }
     }
 }
+

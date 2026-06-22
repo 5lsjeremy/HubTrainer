@@ -1,8 +1,8 @@
 using System;
-using AgentTrainerHub.Interfaces;
+using AgentTrainer.Core.Interfaces;
 using Astryx.Abstractions.Agents;
 
-namespace AgentTrainerHub.Runtime
+namespace AgentTrainer.Core.Runtime
 {
     public sealed class AgentTrainingSession : IAgentTrainingSession
     {
@@ -20,3 +20,4 @@ namespace AgentTrainerHub.Runtime
         }
     }
 }
+

@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <RootNamespace>AgentTrainerHub</RootNamespace>
+        <AssemblyName>AgentTrainerHub</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <!-- Astryx DLL references will be added here -->
+    <ItemGroup>
+        <Reference Include="Astryx.Abstractions">
+            <HintPath>..\lib\Astryx\Astryx.Abstractions.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Engine">
+            <HintPath>..\lib\Astryx\Astryx.Engine.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Runtime">
+            <HintPath>..\lib\Astryx\Astryx.Runtime.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Substrate">
+            <HintPath>..\lib\Astryx\Astryx.Substrate.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Serialization">
+            <HintPath>..\lib\Astryx\Astryx.Serialization.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.BehaviorSubstrateEngine">
+            <HintPath>..\lib\Astryx\Astryx.BehaviorSubstrateEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.ChannelSubstrateEngine">
+            <HintPath>..\lib\Astryx\Astryx.ChannelSubstrateEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Oracles">
+            <HintPath>..\lib\Astryx\Astryx.Oracles.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Qsl">
+            <HintPath>..\lib\Astryx\Astryx.Qsl.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Qsl.Integration">
+            <HintPath>..\lib\Astryx\Astryx.Qsl.Integration.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.SubstrateBroadcastExchange">
+            <HintPath>..\lib\Astryx\Astryx.SubstrateBroadcastExchange.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+
+</Project>

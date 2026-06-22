@@ -1,9 +1,11 @@
-using AgentTrainerHub.Config;
+using AgentTrainer.Core.Config;
+using Astryx.Abstractions.Agents;
 
-namespace AgentTrainerHub.Interfaces
+namespace AgentTrainer.Core.Interfaces
 {
     public interface IMindBuilder
     {
         MindConfig BuildMind(AgentTrainerConfig config);
     }
 }
+

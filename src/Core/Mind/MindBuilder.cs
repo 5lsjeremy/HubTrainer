@@ -1,9 +1,9 @@
 using System;
-using AgentTrainerHub.Config;
-using AgentTrainerHub.Interfaces;
-using Astryx.Abstractions.Substrate.Config;
+using AgentTrainer.Core.Config;
+using AgentTrainer.Core.Interfaces;
+using Astryx.Abstractions.Agents;
 
-namespace AgentTrainerHub.Mind
+namespace AgentTrainer.Core.Mind
 {
     public sealed class MindBuilder : IMindBuilder
     {
@@ -19,3 +19,4 @@ namespace AgentTrainerHub.Mind
         }
     }
 }
+

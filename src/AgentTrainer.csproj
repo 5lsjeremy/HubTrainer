@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <PackageId>AgentTrainer</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Astryx.Abstractions">
+            <HintPath>..\lib\Astryx\Astryx.Abstractions.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Runtime">
+            <HintPath>..\lib\Astryx\Astryx.Runtime.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Engine">
+            <HintPath>..\lib\Astryx\Astryx.Engine.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Substrate">
+            <HintPath>..\lib\Astryx\Astryx.Substrate.dll</HintPath>
+        </Reference>
+        <Reference Include="Astryx.Serialization">
+            <HintPath>..\lib\Astryx\Astryx.Serialization.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+
+
+</Project>

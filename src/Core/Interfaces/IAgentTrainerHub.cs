@@ -1,7 +1,8 @@
 using System;
-using AgentTrainerHub.Config;
+using AgentTrainer.Core.Config;
+using Astryx.Abstractions.Agents;
 
-namespace AgentTrainerHub.Interfaces
+namespace AgentTrainer.Core.Interfaces
 {
     public interface IAgentTrainerHub
     {
@@ -10,3 +11,4 @@ namespace AgentTrainerHub.Interfaces
         MindConfig CreateMind(AgentTrainerConfig config);
     }
 }
+

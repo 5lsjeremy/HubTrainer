@@ -1,6 +1,7 @@
 using System;
+using Astryx.Abstractions.Agents;
 
-namespace AgentTrainerHub.Interfaces
+namespace AgentTrainer.Core.Interfaces
 {
     public interface IAgentTrainingSession
     {
@@ -8,3 +9,4 @@ namespace AgentTrainerHub.Interfaces
         AgentExportBundle Step(int steps);
     }
 }
+
