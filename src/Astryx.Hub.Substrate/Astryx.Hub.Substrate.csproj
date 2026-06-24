@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.1;net8.0</TargetFrameworks>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+
+        <AssemblyName>Astryx.Hub.Substrate</AssemblyName>
+        <RootNamespace>Astryx.Hub.Substrate</RootNamespace>
+    </PropertyGroup>
+
+    <!-- Pure contracts relative to Hub.* -->
+    <!-- Allowed: Astryx.* abstractions/runtime/substrate -->
+
+    <ItemGroup>
+        <Reference Include="Astryx.Abstractions">
+            <HintPath>..\..\lib\Astryx\Astryx.Abstractions.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+</Project>

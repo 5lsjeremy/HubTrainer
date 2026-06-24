@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+
+        <AssemblyName>Astryx.Hub.Core</AssemblyName>
+        <RootNamespace>Astryx.Hub.Core</RootNamespace>
+    </PropertyGroup>
+
+    <!-- Reference Trainer + Substrate -->
+    <ItemGroup>
+        <ProjectReference Include="..\Astryx.Hub.Substrate\Astryx.Hub.Substrate.csproj" />
+        <ProjectReference Include="..\Astryx.Hub.Trainer\Astryx.Hub.Trainer.csproj" />
+    </ItemGroup>
+
+    <!-- Astryx core references -->
+    <ItemGroup>
+        <Reference Include="Astryx.Abstractions">
+            <HintPath>..\..\lib\Astryx\Astryx.Abstractions.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Astryx.Runtime">
+            <HintPath>..\..\lib\Astryx\Astryx.Runtime.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Astryx.Engine">
+            <HintPath>..\..\lib\Astryx\Astryx.Engine.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Astryx.Substrate">
+            <HintPath>..\..\lib\Astryx\Astryx.Substrate.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Astryx.Serialization">
+            <HintPath>..\..\lib\Astryx\Astryx.Serialization.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+</Project>
