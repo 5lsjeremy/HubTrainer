@@ -11,21 +11,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d58dbdeb-176e-4b7b-8859-c8a2899ac886" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HubTrainer/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AgentTrainer.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/Export/ExportBundleSerializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HubTrainer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HubTrainer/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HubTrainer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HubTrainer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HubTrainer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/HubTrainer.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/AgentTrainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/AgentTrainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/Config/AgentTrainerConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Config/AgentTrainerConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/Export/ActorTraitsMindExporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Export/ActorTraitsMindExporter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/Export/ExportBundleSerializer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/Interfaces/IAgentTrainerHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Interfaces/IAgentTrainerHub.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/Interfaces/IAgentTrainingSession.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Interfaces/IAgentTrainingSession.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/Interfaces/IMindBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Interfaces/IMindBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/Mind/MindBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Mind/MindBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/Runtime/AgentTrainingSession.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Runtime/AgentTrainingSession.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AgentTrainerHub/UnityBridge/UnityHubBridge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/UnityBridge/UnityHubBridge.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.idea.src.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.idea.src.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.idea.src.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.idea.src.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AgentTrainer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/AgentTrainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/AgentTrainerHub.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Config/AgentTrainerConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Export/ActorTraitsMindExporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Export/ExportBundleSerializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Interfaces/IAgentTrainerHub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Interfaces/IAgentTrainingSession.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Interfaces/IMindBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Mind/MindBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Runtime/AgentTrainingSession.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/UnityBridge/UnityHubBridge.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.BehaviorSubstrateEngine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.ChannelSubstrateEngine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.Engine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.Oracles.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.Qsl.Integration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.Qsl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.Serialization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.Substrate.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Astryx/Astryx.SubstrateBroadcastExchange.dll" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,48 +50,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "5lsjeremy"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;5lsjeremy&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/5lsjeremy/HubTrainer.git",
-    "accountId": "c7a51e0d-151b-4dca-99f6-3126211c3f1c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/5lsjeremy/HubTrainer.git&quot;,
+    &quot;accountId&quot;: &quot;c7a51e0d-151b-4dca-99f6-3126211c3f1c&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3FVfMOsUFEj22kSIdf4svugHadN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d58dbdeb-176e-4b7b-8859-c8a2899ac886" name="Changes" comment="" />
@@ -84,13 +104,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782165110174</updated>
-      <workItem from="1782165113942" duration="1516000" />
+      <workItem from="1782165113942" duration="2034000" />
+      <workItem from="1782193595353" duration="1589000" />
+      <workItem from="1782253018821" duration="1650000" />
+      <workItem from="1782254689717" duration="901000" />
+      <workItem from="1782255664723" duration="129000" />
+      <workItem from="1782256045901" duration="201000" />
+      <workItem from="1782263192594" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
